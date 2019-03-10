@@ -1,0 +1,112 @@
+html,
+@media only screen and (max-width: 400px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("https://enterprisersproject.com/sites/default/files/styles/620x350/public/images/cio_talent_1.png?itok=Uoq98lEI");
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 500;
+    background-size: cover;
+    display: table;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 padding: 0;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+    float: left;
+    color: rgb(90, 175, 29);
+    font-size: 16px;
+    line-height: 80px;
+    padding: 0 6em;
+}
+
+.menu {
+    float: right;
+    line-height: 70px;
+    margin: 0 6em;
+}
+
+#menul1 li a {
+    float: right;
+    line-height: 25px;
+    margin: 0 6em;
+    display: inline-block;
+    color: rgb(63, 16, 16);
+    font-size: 12px;
+    padding: 0 1em;
+    font-weight: lighter;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(33, 134, 13);
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+ul li:nth-child(7) a {
+    color: rgb(63, 16, 16);
+    border: 1px solid #01110f;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-inline-end-color: black;
+}
+
+.header h1 {
+    color: rgb(39, 31, 31);
+    font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    width: 300px;
+    box-shadow: solid rgb(202, 183, 183);
+    padding: 25px;
+    margin: 25px;
+}
+
+.header button {
+    color: rgb(90, 175, 29);
+    background: #fff;
+    padding: 20px 32px;
+    border: none;
+    font-size: 14px;
+}
