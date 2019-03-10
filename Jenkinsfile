@@ -16,8 +16,8 @@ sh "docker build -t docker_test:latest ."
 
 stage('Docker login to hub and push the image'){
 sh "docker login -u 'smbutha' -p 'Botha321' "
-sh "docker tag docker_test:latest smbutha/docker_test:latest"
-sh "docker push smbutha/docker_test:latest"
+sh "docker tag raspberry:latest smbutha/raspberry:latest"
+sh "docker push smbutha/raspberry:latest"
 }
 
 stage('Apply changes to the environment') {
