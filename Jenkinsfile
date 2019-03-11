@@ -11,7 +11,7 @@ sh "ls -l"
 
 stage('Build docker image'){
 
-sh "docker build -t raspberry:latest ."
+sh "sudo docker build -t raspberry:latest ."
 }
 
 stage('Docker login to hub and push the image'){
